@@ -115,4 +115,4 @@ def search_pincode():
     return render_template('status.html', result=result)
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8000)
+    app.run(debug=True)
